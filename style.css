@@ -1,0 +1,22 @@
+body {
+  background-color: pink;
+}
+
+.header {
+  color: white;
+  font-size: 38;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:black;
+  padding-left: 35%;
+}
+
+img {
+  width: 25%;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding-left: 46%;
+}
+
