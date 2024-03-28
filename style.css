@@ -15,7 +15,32 @@ header {
 
 img {
   width: 25%;
-  float: right;
+  Float: right;
+}
+
+.photo-container a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    font-weight: normal;
+}
+
+.photo-container a span {
+    visibility: hidden;
+    position: absolute;
+    left: 15em;
+    top: -2.3em;
+    background: #ffff6b;
+    width: 17em;
+    border: 1px solid #404040;
+    font-size: 0.8em;
+    padding: 0.3em;
+    cursor: default;
+    line-height: 1.4;
+}
+
+.photo-container a:hover span {
+    visibility: visible;
 }
 
 footer {
@@ -33,28 +58,23 @@ p {
   font-size: 12px;
 }
 
-article {
-  border: 1px solid black
+
+.experience {
+  border: 1px solid black;
+  animation: experience 5s ease-in 1s normal; 
+}
+
+.education {
+  border: 1px solid black;
+}
+
+@keyframes experience {
+  from {opacity:0%;}
+  to {opacity:100%}
 }
 
 h3{
   text-decoration-line: overline underline;
   text-decoration-style: double;
   text-decoration-color: gray;
-}
-.tooltip {
-  position: relative;
-  display: inline-block;
-  
-}
-.tooltiptext{
-  visibility:hidden;
-    width: 120px;
-  border-radius: 6px;
-  background-image: url("src="https://images.squarespace-cdn.com/content/v1/5eceb0b8d766c37d4d4d1c9d/1590613460578-1VNGKWMXZAQNEB4VGZ3Y/final-26.jpg"")
-  position: absolute;
-  z-index: 1;
-}
-.tooltip:hover .tooltiptext{
-  visibility: visible;
 }
