@@ -17,6 +17,7 @@ img {
   Float: right;
   opacity: 0%;
   animation: experience 2s ease-in 4s 1 normal;
+  animation-fill-mode: both;
 }
 
 .photo-container a {
