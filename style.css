@@ -1,5 +1,6 @@
 body {
-  background-color: pink;
+  background-color: #c698d1;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%
 }
@@ -9,7 +10,7 @@ header {
   font-size: 38;
   font-family: Arial, Helvetica, sans-serif;
   background-color:black;
-  padding-left: 50%;
+  text-align: center;
 }
 
 img {
@@ -20,19 +21,40 @@ img {
 footer {
   background: black;
   color: white;
-  padding-left: 50%;
+  text-align: center;
 }
 li {
-  color: white;
+  color: #e5e7e8;
   font-size: 12px;
 }
 
 p {
-  color: red;
-  font-size: 10px;
+  color: #464747;
+  font-size: 12px;
 }
 
-experience {
-  outline-color: black;
-  outline-size: 1px
+article {
+  border: 1px solid black
+}
+
+h3{
+  text-decoration-line: overline underline;
+  text-decoration-style: double;
+  text-decoration-color: gray;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+.tooltiptext{
+  visibility:hidden;
+    width: 120px;
+  border-radius: 6px;
+  background-image: url("src="https://images.squarespace-cdn.com/content/v1/5eceb0b8d766c37d4d4d1c9d/1590613460578-1VNGKWMXZAQNEB4VGZ3Y/final-26.jpg"")
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext{
+  visibility: visible;
 }
