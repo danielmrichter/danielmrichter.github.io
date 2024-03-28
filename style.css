@@ -29,7 +29,7 @@ img {
 
 .photo-container a span {
     visibility: hidden;
-    position: absolute;
+    position: relative;
     left: 15em;
     top: -2.3em;
     background: #ffff6b;
